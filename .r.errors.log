@@ -1,0 +1,587 @@
+2018-11-01 03:14:53 /HOME/X/XRAZER/APPLICATIONS/GO/SRC/SERVER : # server
+./main.go:11:6: b declared and not used
+exit status 2 
+ 2018-11-01 03:15:06 /HOME/X/XRAZER/APPLICATIONS/GO/SRC/SERVER : # server
+./main.go:13:22: not enough arguments in call to gzip.NewWriter
+	have ()
+	want (io.Writer)
+exit status 2 
+ 2018-11-01 03:15:11 /HOME/X/XRAZER/APPLICATIONS/GO/SRC/SERVER : # server
+./main.go:13:24: gz declared and not used
+exit status 2 
+ 2018-11-01 03:17:08 /HOME/X/XRAZER/APPLICATIONS/GO/SRC/SERVER : # server
+./main.go:20:3: syntax error: unexpected newline, expecting comma or }
+exit status 2 
+ 2018-11-01 03:17:12 /HOME/X/XRAZER/APPLICATIONS/GO/SRC/SERVER : # server
+./main.go:19:2: syntax error: unexpected newline, expecting comma or }
+exit status 2 
+ 2018-11-01 03:17:19 /HOME/X/XRAZER/APPLICATIONS/GO/SRC/SERVER : # server
+./main.go:15:18: cannot use b (type bytes.Buffer) as type byte in append
+./main.go:15:26: cannot convert "\nHTTP/1.1 200 OK\nConnection: keep-alive\nServer: rushi\n" to type byte
+exit status 2 
+ 2018-11-01 03:17:21 /HOME/X/XRAZER/APPLICATIONS/GO/SRC/SERVER : # server
+./main.go:15:18: cannot use b (type bytes.Buffer) as type byte in append
+./main.go:15:26: cannot convert "\nHTTP/1.1 200 OK\nConnection: keep-alive\nServer: rushi\n\n" to type byte
+exit status 2 
+ 2018-11-01 03:17:43 /HOME/X/XRAZER/APPLICATIONS/GO/SRC/SERVER : # server
+./main.go:15:26: cannot convert "\nHTTP/1.1 200 OK\nConnection: keep-alive\nServer: rushi\n\n" to type byte
+./main.go:20:10: use of package bytes without selector
+exit status 2 
+ 2018-11-01 03:18:33 /HOME/X/XRAZER/APPLICATIONS/GO/SRC/SERVER : # server
+./main.go:16:26: cannot convert "\nHTTP/1.1 200 OK\nConnection: keep-alive\nServer: rushi\n\n" to type byte
+./main.go:21:17: multiple-value json.Marshal() in single-value context
+exit status 2 
+ 2018-11-01 03:18:52 /HOME/X/XRAZER/APPLICATIONS/GO/SRC/SERVER : # server
+./main.go:16:19: use of package bytes without selector
+./main.go:21:17: multiple-value json.Marshal() in single-value context
+exit status 2 
+ 2018-11-01 03:18:55 /HOME/X/XRAZER/APPLICATIONS/GO/SRC/SERVER : # server
+./main.go:16:26: cannot convert "\nHTTP/1.1 200 OK\nConnection: keep-alive\nServer: rushi\n\n" to type byte
+./main.go:21:17: multiple-value json.Marshal() in single-value context
+exit status 2 
+ 2018-11-01 03:19:38 /HOME/X/XRAZER/APPLICATIONS/GO/SRC/SERVER : # server
+./main.go:20:3: syntax error: unexpected newline, expecting comma or )
+exit status 2 
+ 2018-11-01 03:19:51 /HOME/X/XRAZER/APPLICATIONS/GO/SRC/SERVER : # server
+./main.go:21:17: multiple-value json.Marshal() in single-value context
+exit status 2 
+ 2018-11-01 03:19:54 /HOME/X/XRAZER/APPLICATIONS/GO/SRC/SERVER : # server
+./main.go:21:17: multiple-value json.Marshal() in single-value context
+exit status 2 
+ 2018-11-01 03:20:15 /HOME/X/XRAZER/APPLICATIONS/GO/SRC/SERVER : # server
+./main.go:21:19: cannot use b (type bytes.Buffer) as type io.Reader in argument to ioutil.ReadAll:
+	bytes.Buffer does not implement io.Reader (Read method has pointer receiver)
+./main.go:21:19: multiple-value ioutil.ReadAll() in single-value context
+exit status 2 
+ 2018-11-01 03:22:02 /HOME/X/XRAZER/APPLICATIONS/GO/SRC/SERVER : # server
+./main.go:15:18: cannot use b.Bytes() (type []byte) as type byte in append
+exit status 2 
+ 2018-11-01 03:22:30 /HOME/X/XRAZER/APPLICATIONS/GO/SRC/SERVER : # server
+./main.go:16:18: cannot use b.Bytes() (type []byte) as type byte in append
+exit status 2 
+ 2018-11-01 03:22:34 /HOME/X/XRAZER/APPLICATIONS/GO/SRC/SERVER : # server
+./main.go:16:18: cannot use l (type []byte) as type byte in append
+exit status 2 
+ 2018-11-01 03:23:08 /HOME/X/XRAZER/APPLICATIONS/GO/SRC/SERVER : # server
+./main.go:16:18: cannot use l[:] (type []byte) as type byte in append
+exit status 2 
+ 2018-11-01 03:23:44 /HOME/X/XRAZER/APPLICATIONS/GO/SRC/SERVER : # server
+./main.go:15:7: l declared and not used
+exit status 2 
+ 2018-11-01 03:24:41 /HOME/X/XRAZER/APPLICATIONS/GO/SRC/SERVER : # server
+./main.go:15:7: l declared and not used
+exit status 2 
+ 2018-11-01 03:24:50 /HOME/X/XRAZER/APPLICATIONS/GO/SRC/SERVER : # server
+./main.go:22:17: cannot use l (type []byte) as type byte in append
+exit status 2 
+ 2018-11-01 03:25:28 /HOME/X/XRAZER/APPLICATIONS/GO/SRC/SERVER : # server
+./main.go:22:17: cannot use string(l) (type string) as type byte in append
+exit status 2 
+ 2018-11-01 03:25:42 /HOME/X/XRAZER/APPLICATIONS/GO/SRC/SERVER : # server
+./main.go:22:17: cannot use ([]byte)(string(l)) (type []byte) as type byte in append
+exit status 2 
+ 2018-11-01 03:26:10 /HOME/X/XRAZER/APPLICATIONS/GO/SRC/SERVER : # server
+./main.go:22:17: cannot use ([]byte)("hello world") (type []byte) as type byte in append
+exit status 2 
+ 2018-11-01 03:54:35 /HOME/X/XRAZER/APPLICATIONS/GO/SRC/SERVER : # server
+./main.go:26:16: cannot use gz (type *gzip.Writer) as type io.Reader in argument to gzip.NewReader:
+	*gzip.Writer does not implement io.Reader (missing Read method)
+exit status 2 
+ 2018-11-01 04:00:09 /HOME/X/XRAZER/APPLICATIONS/GO/SRC/SERVER : # server
+./main.go:29:25: s declared and not used
+exit status 2 
+ 2018-11-01 04:02:33 /HOME/X/XRAZER/APPLICATIONS/GO/SRC/SERVER : # server
+./main.go:30:20: cannot convert r (type *gzip.Reader) to type string
+exit status 2 
+ 2018-11-01 04:06:38 /HOME/X/XRAZER/APPLICATIONS/GO/SRC/SERVER : # server
+./main.go:30:5: undefined: dk
+exit status 2 
+ 2018-11-01 04:13:29 /HOME/X/XRAZER/APPLICATIONS/GO/SRC/SERVER : # server
+./main.go:65:26: cannot use b (type bytes.Buffer) as type []byte in argument to bytes.NewReader
+exit status 2 
+ 2018-11-01 04:13:33 /HOME/X/XRAZER/APPLICATIONS/GO/SRC/SERVER : # server
+./main.go:65:26: cannot use b (type bytes.Buffer) as type []byte in argument to bytes.NewReader
+./main.go:65:26: invalid use of ... in call to bytes.NewReader
+exit status 2 
+ 2018-11-01 04:13:47 /HOME/X/XRAZER/APPLICATIONS/GO/SRC/SERVER : # server
+./main.go:65:27: rdata declared and not used
+exit status 2 
+ 2018-11-01 04:13:48 /HOME/X/XRAZER/APPLICATIONS/GO/SRC/SERVER : # server
+./main.go:65:27: rdata declared and not used
+exit status 2 
+ 2018-11-01 04:17:53 /HOME/X/XRAZER/APPLICATIONS/GO/SRC/SERVER : # server
+./main.go:13:19: cannot convert &b (type *bytes.Buffer) to type gzip.Writer
+exit status 2 
+ 2018-11-01 04:18:04 /HOME/X/XRAZER/APPLICATIONS/GO/SRC/SERVER : # server
+./main.go:13:19: cannot convert &b (type *bytes.Buffer) to type gzip.Writer
+exit status 2 
+ 2018-11-01 04:18:30 /HOME/X/XRAZER/APPLICATIONS/GO/SRC/SERVER : # server
+./main.go:33:20: p declared and not used
+exit status 2 
+ 2018-11-01 04:21:05 /HOME/X/XRAZER/APPLICATIONS/GO/SRC/SERVER : # server
+./main.go:32:18: n declared and not used
+./main.go:32:18: dk declared and not used
+exit status 2 
+ 2018-11-01 04:21:39 /HOME/X/XRAZER/APPLICATIONS/GO/SRC/SERVER : # server
+./main.go:35:18: n declared and not used
+./main.go:35:18: dk declared and not used
+exit status 2 
+ 2018-11-01 04:22:44 /HOME/X/XRAZER/APPLICATIONS/GO/SRC/SERVER : # server
+./main.go:35:25: s declared and not used
+exit status 2 
+ 2018-11-01 04:22:50 /HOME/X/XRAZER/APPLICATIONS/GO/SRC/SERVER : # server
+./main.go:31:26: r declared and not used
+./main.go:35:25: s declared and not used
+exit status 2 
+ 2018-11-01 04:23:33 /HOME/X/XRAZER/APPLICATIONS/GO/SRC/SERVER : # server
+./main.go:34:18: undefined: p
+exit status 2 
+ 2018-11-01 04:23:46 /HOME/X/XRAZER/APPLICATIONS/GO/SRC/SERVER : # server
+./main.go:35:18: n declared and not used
+./main.go:35:18: dk declared and not used
+exit status 2 
+ 2018-11-01 04:24:01 /HOME/X/XRAZER/APPLICATIONS/GO/SRC/SERVER : # server
+./main.go:35:18: n declared and not used
+./main.go:35:18: dk declared and not used
+exit status 2 
+ 2018-11-01 04:32:38 /HOME/X/XRAZER/APPLICATIONS/GO/SRC/SERVER : # server
+./main.go:36:5: undefined: k
+exit status 2 
+ 2018-11-01 14:52:32 /HOME/X/XRAZER/APPLICATIONS/GO/SRC/SERVER : # server
+./main.go:36:5: undefined: k
+exit status 2 
+ 2018-11-01 14:53:44 /HOME/X/XRAZER/APPLICATIONS/GO/SRC/SERVER : # server
+./main.go:17:22: syntax error: unexpected newline, expecting comma or )
+exit status 2 
+ 2018-11-01 14:53:45 /HOME/X/XRAZER/APPLICATIONS/GO/SRC/SERVER : # server
+./main.go:17:22: syntax error: unexpected newline, expecting comma or )
+exit status 2 
+ 2018-11-01 14:53:48 /HOME/X/XRAZER/APPLICATIONS/GO/SRC/SERVER : # server
+./main.go:19:9: syntax error: unexpected newline, expecting comma or )
+exit status 2 
+ 2018-11-01 15:35:25 /HOME/X/XRAZER/APPLICATIONS/GO/SRC/SERVER : main.go:9:2: cannot find package "ioutils" in any of:
+	/usr/local/go/src/ioutils (from $GOROOT)
+	/home/xrazer/Applications/go/src/ioutils (from $GOPATH)
+exit status 1 
+ 2018-11-01 15:35:36 /HOME/X/XRAZER/APPLICATIONS/GO/SRC/SERVER : main.go:9:2: cannot find package "ioutil" in any of:
+	/usr/local/go/src/ioutil (from $GOROOT)
+	/home/xrazer/Applications/go/src/ioutil (from $GOPATH)
+exit status 1 
+ 2018-11-01 15:35:55 /HOME/X/XRAZER/APPLICATIONS/GO/SRC/SERVER : # server
+./main.go:37:2: syntax error: unexpected if, expecting expression
+./main.go:40:2: syntax error: non-declaration statement outside function body
+exit status 2 
+ 2018-11-01 15:38:46 /HOME/X/XRAZER/APPLICATIONS/GO/SRC/SERVER : # server
+./main.go:36:25: not enough arguments in call to ioutil.ReadAll
+	have ()
+	want (io.Reader)
+exit status 2 
+ 2018-11-01 17:57:15 /HOME/X/XRAZER/APPLICATIONS/GO/SRC/SERVER : # server
+./main.go:31:17: cannot use "hello world" (type string) as type []byte in field value
+./main.go:31:17: too few values in struct initializer
+exit status 2 
+ 2018-11-01 17:57:32 /HOME/X/XRAZER/APPLICATIONS/GO/SRC/SERVER : # server
+./main.go:31:44: a declared and not used
+exit status 2 
+ 2018-11-01 17:59:30 /HOME/X/XRAZER/APPLICATIONS/GO/SRC/SERVER : # server
+./main.go:13:19: syntax error: unexpected {, expecting name or (
+exit status 2 
+ 2018-11-01 17:59:50 /HOME/X/XRAZER/APPLICATIONS/GO/SRC/SERVER : # server
+./main.go:15:1: syntax error: unexpected }, expecting name or (
+./main.go:17:6: syntax error: unexpected main, expecting (
+./main.go:32:2: syntax error: unexpected a, expecting comma or )
+./main.go:33:2: syntax error: non-declaration statement outside function body
+exit status 2 
+ 2018-11-01 18:00:03 /HOME/X/XRAZER/APPLICATIONS/GO/SRC/SERVER : # server
+./main.go:5:2: imported and not used: "net"
+./main.go:14:9: non-name a.body on left side of :=
+exit status 2 
+ 2018-11-01 18:00:19 /HOME/X/XRAZER/APPLICATIONS/GO/SRC/SERVER : # server
+./main.go:32:4: cannot use a (type *Response) as type Response in argument to lo
+exit status 2 
+ 2018-11-01 18:52:49 /HOME/X/XRAZER/APPLICATIONS/GO/SRC/SERVER : # server
+./main.go:31:10: Response literal evaluated but not used
+./main.go:32:5: undefined: a
+./main.go:33:21: undefined: a
+exit status 2 
+ 2018-11-01 18:55:58 /HOME/X/XRAZER/APPLICATIONS/GO/SRC/SERVER : # server
+./main.go:21:8: undefined: bytes.Buffer
+exit status 2 
+ 2018-11-01 18:56:01 /HOME/X/XRAZER/APPLICATIONS/GO/SRC/SERVER : # server
+./main.go:21:9: undefined: bytes.Buffer
+exit status 2 
+ 2018-11-01 18:56:11 /HOME/X/XRAZER/APPLICATIONS/GO/SRC/SERVER : # server
+./main.go:20:5: type bytes.Buffer is not an expression
+exit status 2 
+ 2018-11-01 18:56:23 /HOME/X/XRAZER/APPLICATIONS/GO/SRC/SERVER : # server
+./main.go:20:22: re declared and not used
+exit status 2 
+ 2018-11-01 18:56:28 /HOME/X/XRAZER/APPLICATIONS/GO/SRC/SERVER : # server
+./main.go:20:8: type bytes.Buffer is not an expression
+exit status 2 
+ 2018-11-01 18:56:39 /HOME/X/XRAZER/APPLICATIONS/GO/SRC/SERVER : # server
+./main.go:20:8: type bytes.Buffer is not an expression
+exit status 2 
+ 2018-11-01 18:56:44 /HOME/X/XRAZER/APPLICATIONS/GO/SRC/SERVER : # server
+./main.go:21:10: cannot use re (type *bytes.Buffer) as type []byte in argument to con.Read
+exit status 2 
+ 2018-11-01 19:21:16 /HOME/X/XRAZER/APPLICATIONS/GO/SRC/SERVER : # server
+./main.go:19:9: syntax error: unexpected map, expecting semicolon, newline, or }
+exit status 2 
+ 2018-11-01 19:22:35 /HOME/X/XRAZER/APPLICATIONS/GO/SRC/SERVER : # server
+./main.go:13:13: syntax error: unexpected func, expecting semicolon, newline, or }
+exit status 2 
+ 2018-11-01 19:23:54 /HOME/X/XRAZER/APPLICATIONS/GO/SRC/SERVER : # server
+./main.go:13:13: syntax error: unexpected func, expecting semicolon, newline, or }
+exit status 2 
+ 2018-11-01 19:24:00 /HOME/X/XRAZER/APPLICATIONS/GO/SRC/SERVER : # server
+./main.go:13:2: undefined: HandleFunc
+exit status 2 
+ 2018-11-01 19:26:12 /HOME/X/XRAZER/APPLICATIONS/GO/SRC/SERVER : # server
+./main.go:16:8: method has no receiver
+./main.go:16:8: syntax error: unexpected newline, expecting name or (
+exit status 2 
+ 2018-11-01 19:27:13 /HOME/X/XRAZER/APPLICATIONS/GO/SRC/SERVER : # server
+./main.go:18:1: syntax error: unexpected }, expecting expression
+./main.go:20:6: syntax error: unexpected main, expecting (
+./main.go:22:1: syntax error: unexpected }, expecting )
+exit status 2 
+ 2018-11-01 19:27:49 /HOME/X/XRAZER/APPLICATIONS/GO/SRC/SERVER : # server
+./main.go:21:21: server declared and not used
+exit status 2 
+ 2018-11-01 19:28:56 /HOME/X/XRAZER/APPLICATIONS/GO/SRC/SERVER : # server
+./main.go:22:19: not enough arguments in call to server.HandleFunc
+	have (string)
+	want (string, func(Request, *Response))
+exit status 2 
+ 2018-11-03 00:51:33 /HOME/X/XRAZER/APPLICATIONS/GO/SRC/SERVER : # server/server
+server/server.go:29:2: undefined: client
+server/server.go:29:14: invalid character literal (more than one character)
+exit status 2 
+ 2018-11-03 00:57:32 /HOME/X/XRAZER/APPLICATIONS/GO/SRC/SERVER : # server/server
+server/server.go:34:5: res.setStatus undefined (type *Response has no field or method setStatus, but does have SetStatus)
+server/server.go:56:34: type int is not an expression
+server/server.go:56:39: type string is not an expression
+exit status 2 
+ 2018-11-03 00:57:39 /HOME/X/XRAZER/APPLICATIONS/GO/SRC/SERVER : # server/server
+server/server.go:34:5: res.setStatus undefined (type *Response has no field or method setStatus, but does have SetStatus)
+exit status 2 
+ 2018-11-03 00:59:09 /HOME/X/XRAZER/APPLICATIONS/GO/SRC/SERVER : # server/server
+server/server.go:34:5: res.setStatus undefined (type *Response has no field or method setStatus, but does have SetStatus)
+server/server.go:79:8: cannot use r.status (type string) as type byte in append
+server/server.go:79:8: append(response, r.status) evaluated but not used
+exit status 2 
+ 2018-11-03 00:59:14 /HOME/X/XRAZER/APPLICATIONS/GO/SRC/SERVER : # server/server
+server/server.go:34:5: res.setStatus undefined (type *Response has no field or method setStatus, but does have SetStatus)
+server/server.go:79:8: append(response, r.status...) evaluated but not used
+exit status 2 
+ 2018-11-03 00:59:21 /HOME/X/XRAZER/APPLICATIONS/GO/SRC/SERVER : # server/server
+server/server.go:34:5: res.setStatus undefined (type *Response has no field or method setStatus, but does have SetStatus)
+exit status 2 
+ 2018-11-03 00:59:51 /HOME/X/XRAZER/APPLICATIONS/GO/SRC/SERVER : # server/server
+server/server.go:34:5: res.setStatus undefined (type *Response has no field or method setStatus, but does have SetStatus)
+exit status 2 
+ 2018-11-03 01:00:34 /HOME/X/XRAZER/APPLICATIONS/GO/SRC/SERVER : # server/server
+server/server.go:34:15: not enough arguments in call to res.SetStatus
+	have (number)
+	want (int, string)
+exit status 2 
+ 2018-11-03 01:38:38 /HOME/X/XRAZER/APPLICATIONS/GO/SRC/SERVER : # server/server
+server/server.go:55:23: n declared and not used
+exit status 2 
+ 2018-11-03 01:43:57 /HOME/X/XRAZER/APPLICATIONS/GO/SRC/SERVER : # server/server
+server/server.go:57:23: n declared and not used
+exit status 2 
+ 2018-11-03 02:02:23 /HOME/X/XRAZER/APPLICATIONS/GO/SRC/SERVER : # server/server
+server/server.go:57:23: n declared and not used
+exit status 2 
+ 2018-11-03 02:03:19 /HOME/X/XRAZER/APPLICATIONS/GO/SRC/SERVER : # server/server
+server/server.go:56:15: undefined: c
+server/server.go:56:22: undefined: one
+exit status 2 
+ 2018-11-03 02:03:28 /HOME/X/XRAZER/APPLICATIONS/GO/SRC/SERVER : # server/server
+server/server.go:56:25: undefined: one
+exit status 2 
+ 2018-11-03 02:09:42 /HOME/X/XRAZER/APPLICATIONS/GO/SRC/SERVER : # server/server
+server/server.go:57:7: conn.S undefined (type net.Conn has no field or method S)
+exit status 2 
+ 2018-11-03 02:10:35 /HOME/X/XRAZER/APPLICATIONS/GO/SRC/SERVER : # server/server
+server/server.go:57:13: cannot use b (type []byte) as type string in argument to fmt.Printf
+exit status 2 
+ 2018-11-03 02:11:18 /HOME/X/XRAZER/APPLICATIONS/GO/SRC/SERVER : # server/server
+server/server.go:57:27: cannot use b[0] (type byte) as type []byte in argument to conn.Read
+exit status 2 
+ 2018-11-03 02:27:12 /HOME/X/XRAZER/APPLICATIONS/GO/SRC/SERVER : main.go:4:2: 
+server/server.go:7:11: expected ';', found ','
+exit status 1 
+ 2018-11-03 02:28:03 /HOME/X/XRAZER/APPLICATIONS/GO/SRC/SERVER : main.go:4:2: 
+server/server.go:7:11: expected ';', found ','
+exit status 1 
+ 2018-11-03 02:28:04 /HOME/X/XRAZER/APPLICATIONS/GO/SRC/SERVER : main.go:4:2: 
+server/server.go:7:11: expected ';', found ','
+exit status 1 
+ 2018-11-03 02:28:41 /HOME/X/XRAZER/APPLICATIONS/GO/SRC/SERVER : main.go:4:2: 
+server/server.go:7:11: expected ';', found ','
+exit status 1 
+ 2018-11-03 02:29:06 /HOME/X/XRAZER/APPLICATIONS/GO/SRC/SERVER : main.go:4:2: 
+server/server.go:7:11: expected ';', found ','
+exit status 1 
+ 2018-11-03 02:29:20 /HOME/X/XRAZER/APPLICATIONS/GO/SRC/SERVER : # server/server
+server/server.go:62:4: not enough arguments to return
+	have (error)
+	want (Request, Response, error)
+server/server.go:66:10: no new variables on left side of :=
+exit status 2 
+ 2018-11-03 02:29:34 /HOME/X/XRAZER/APPLICATIONS/GO/SRC/SERVER : # server/server
+server/server.go:66:10: no new variables on left side of :=
+server/server.go:69:4: not enough arguments to return
+	have (error)
+	want (Request, Response, error)
+exit status 2 
+ 2018-11-03 02:29:46 /HOME/X/XRAZER/APPLICATIONS/GO/SRC/SERVER : # server/server
+server/server.go:66:10: no new variables on left side of :=
+exit status 2 
+ 2018-11-03 02:30:53 /HOME/X/XRAZER/APPLICATIONS/GO/SRC/SERVER : # server/server
+server/server.go:66:10: no new variables on left side of :=
+exit status 2 
+ 2018-11-03 03:46:25 /HOME/X/XRAZER/APPLICATIONS/GO/SRC/SERVER : # server/server
+server/server.go:55:20: b declared and not used
+exit status 2 
+ 2018-11-03 03:59:00 /HOME/X/XRAZER/APPLICATIONS/GO/SRC/SERVER : # server/server
+server/server.go:59:29: cannot use make(map[string][]string) (type map[string][]string) as type map[string]string in field value
+server/server.go:76:6: req.headers evaluated but not used
+exit status 2 
+ 2018-11-03 03:59:07 /HOME/X/XRAZER/APPLICATIONS/GO/SRC/SERVER : # server/server
+server/server.go:76:6: req.headers evaluated but not used
+exit status 2 
+ 2018-11-03 03:59:49 /HOME/X/XRAZER/APPLICATIONS/GO/SRC/SERVER : # server/server
+server/server.go:77:15: syntax error: unexpected ], expecting expression
+server/server.go:78:25: syntax error: unexpected newline, expecting ]
+exit status 2 
+ 2018-11-03 04:00:10 /HOME/X/XRAZER/APPLICATIONS/GO/SRC/SERVER : # server/server
+server/server.go:63:23: body declared and not used
+exit status 2 
+ 2018-11-03 04:00:49 /HOME/X/XRAZER/APPLICATIONS/GO/SRC/SERVER : # server/server
+server/server.go:63:23: body declared and not used
+exit status 2 
+ 2018-11-03 04:05:18 /HOME/X/XRAZER/APPLICATIONS/GO/SRC/SERVER : # server
+./main.go:12:7: type map[string]string is not an expression
+exit status 2 
+ 2018-11-03 04:05:42 /HOME/X/XRAZER/APPLICATIONS/GO/SRC/SERVER : # server
+./main.go:14:4: a["dell"] evaluated but not used
+exit status 2 
+ 2018-11-03 04:06:33 /HOME/X/XRAZER/APPLICATIONS/GO/SRC/SERVER : # server
+./main.go:15:14: invalid operation: a["jil"] == nil (mismatched types string and nil)
+exit status 2 
+ 2018-11-03 04:08:33 /HOME/X/XRAZER/APPLICATIONS/GO/SRC/SERVER : # server/server
+server/server.go:136:21: cannot use res (type Response) as type *Response in argument to h.Routes[req.path]
+exit status 2 
+ 2018-11-03 04:10:57 /HOME/X/XRAZER/APPLICATIONS/GO/SRC/SERVER : # server
+./main.go:10:18: undefined: body
+exit status 2 
+ 2018-11-03 17:38:56 /HOME/X/XRAZER/APPLICATIONS/GO/SRC/SERVER : # server/server
+server/server.go:139:14: cannot use 1 (type int) as type bool in assignment
+exit status 2 
+ 2018-11-03 19:37:52 /HOME/X/XRAZER/APPLICATIONS/GO/SRC/SERVER : # server/server
+server/server.go:139:14: cannot use 1 (type int) as type bool in assignment
+exit status 2 
+ 2018-11-03 20:32:53 /HOME/X/XRAZER/APPLICATIONS/GO/SRC/SERVER : # server/server
+server/server.go:129:11: no new variables on left side of :=
+server/server.go:138:1: missing return at end of function
+exit status 2 
+ 2018-11-03 20:32:55 /HOME/X/XRAZER/APPLICATIONS/GO/SRC/SERVER : # server/server
+server/server.go:138:1: missing return at end of function
+exit status 2 
+ 2018-11-03 20:32:59 /HOME/X/XRAZER/APPLICATIONS/GO/SRC/SERVER : # server/server
+server/server.go:138:1: missing return at end of function
+exit status 2 
+ 2018-11-03 20:34:08 /HOME/X/XRAZER/APPLICATIONS/GO/SRC/SERVER : # server/server
+server/server.go:54:17: res.generateResponse undefined (type *Response has no field or method generateResponse)
+exit status 2 
+ 2018-11-03 20:34:58 /HOME/X/XRAZER/APPLICATIONS/GO/SRC/SERVER : # server/server
+server/server.go:134:8: append(response, ([]byte)("\r\n")...) evaluated but not used
+exit status 2 
+ 2018-11-03 20:38:08 /HOME/X/XRAZER/APPLICATIONS/GO/SRC/SERVER : # server/server
+server/server.go:55:5: res.generateBody undefined (type *Response has no field or method generateBody)
+exit status 2 
+ 2018-11-03 20:41:02 /HOME/X/XRAZER/APPLICATIONS/GO/SRC/SERVER : # server/server
+server/server.go:76:104: cannot use make([]byte, 0) (type []byte) as type Body in field value:
+	[]byte does not implement Body (missing Read method)
+server/server.go:118:17: first argument to append must be slice; have interface { Read([]byte) (int, error) }
+exit status 2 
+ 2018-11-03 20:44:15 /HOME/X/XRAZER/APPLICATIONS/GO/SRC/SERVER : # server/server
+server/server.go:77:111: type bytes.Buffer is not an expression
+server/server.go:118:17: first argument to append must be slice; have interface { Read([]byte) (int, error) }
+exit status 2 
+ 2018-11-03 20:44:22 /HOME/X/XRAZER/APPLICATIONS/GO/SRC/SERVER : # server/server
+server/server.go:118:17: first argument to append must be slice; have interface { Read([]byte) (int, error) }
+exit status 2 
+ 2018-11-03 20:45:39 /HOME/X/XRAZER/APPLICATIONS/GO/SRC/SERVER : # server/server
+server/server.go:118:3: r.body evaluated but not used
+server/server.go:119:17: first argument to append must be slice; have interface { Read([]byte) (int, error) }
+exit status 2 
+ 2018-11-03 20:46:00 /HOME/X/XRAZER/APPLICATIONS/GO/SRC/SERVER : # server/server
+server/server.go:118:8: r.body.Write undefined (type Body has no field or method Write)
+exit status 2 
+ 2018-11-03 20:46:29 /HOME/X/XRAZER/APPLICATIONS/GO/SRC/SERVER : # server/server
+server/server.go:77:104: cannot use bytes.Buffer literal (type bytes.Buffer) as type Body in field value:
+	bytes.Buffer does not implement Body (Read method has pointer receiver)
+server/server.go:118:8: r.body.Write undefined (type Body has no field or method Write)
+exit status 2 
+ 2018-11-03 20:46:39 /HOME/X/XRAZER/APPLICATIONS/GO/SRC/SERVER : # server/server
+server/server.go:77:123: bytes.Buffer literal is not a type
+server/server.go:118:8: r.body.Write undefined (type Body has no field or method Write)
+exit status 2 
+ 2018-11-03 20:46:48 /HOME/X/XRAZER/APPLICATIONS/GO/SRC/SERVER : # server/server
+server/server.go:77:104: cannot use bytes.Buffer literal (type bytes.Buffer) as type Body in field value:
+	bytes.Buffer does not implement Body (Read method has pointer receiver)
+server/server.go:118:8: r.body.Write undefined (type Body has no field or method Write)
+exit status 2 
+ 2018-11-03 20:47:04 /HOME/X/XRAZER/APPLICATIONS/GO/SRC/SERVER : # server/server
+server/server.go:77:104: cannot use bytes.Buffer literal (type bytes.Buffer) as type *Body in field value:
+	*Body is pointer to interface, not interface
+server/server.go:118:8: r.body.Write undefined (type *Body is pointer to interface, not interface)
+exit status 2 
+ 2018-11-03 20:47:08 /HOME/X/XRAZER/APPLICATIONS/GO/SRC/SERVER : # server/server
+server/server.go:77:104: cannot use bytes.Buffer literal (type *bytes.Buffer) as type *Body in field value:
+	*Body is pointer to interface, not interface
+server/server.go:118:8: r.body.Write undefined (type *Body is pointer to interface, not interface)
+exit status 2 
+ 2018-11-03 20:47:11 /HOME/X/XRAZER/APPLICATIONS/GO/SRC/SERVER : # server/server
+server/server.go:77:104: cannot use bytes.Buffer literal (type *bytes.Buffer) as type *Body in field value:
+	*Body is pointer to interface, not interface
+server/server.go:118:8: r.body.Write undefined (type *Body is pointer to interface, not interface)
+exit status 2 
+ 2018-11-03 20:47:11 /HOME/X/XRAZER/APPLICATIONS/GO/SRC/SERVER : # server/server
+server/server.go:118:8: r.body.Write undefined (type Body has no field or method Write)
+exit status 2 
+ 2018-11-03 20:47:15 /HOME/X/XRAZER/APPLICATIONS/GO/SRC/SERVER : # server/server
+server/server.go:77:104: cannot use bytes.Buffer literal (type bytes.Buffer) as type Body in field value:
+	bytes.Buffer does not implement Body (Read method has pointer receiver)
+server/server.go:118:8: r.body.Write undefined (type Body has no field or method Write)
+exit status 2 
+ 2018-11-03 20:47:29 /HOME/X/XRAZER/APPLICATIONS/GO/SRC/SERVER : # server/server
+server/server.go:19:7: syntax error: unexpected &, expecting type
+exit status 2 
+ 2018-11-03 20:47:36 /HOME/X/XRAZER/APPLICATIONS/GO/SRC/SERVER : # server/server
+server/server.go:118:8: r.body.Write undefined (type Body has no field or method Write)
+exit status 2 
+ 2018-11-03 20:47:38 /HOME/X/XRAZER/APPLICATIONS/GO/SRC/SERVER : # server/server
+server/server.go:77:119: syntax error: unexpected newline, expecting comma or }
+server/server.go:97:2: syntax error: non-declaration statement outside function body
+exit status 2 
+ 2018-11-03 20:47:39 /HOME/X/XRAZER/APPLICATIONS/GO/SRC/SERVER : # server/server
+server/server.go:77:106: type bytes.Buffer is not an expression
+server/server.go:118:8: r.body.Write undefined (type Body has no field or method Write)
+exit status 2 
+ 2018-11-03 20:47:46 /HOME/X/XRAZER/APPLICATIONS/GO/SRC/SERVER : # server/server
+server/server.go:118:8: r.body.Write undefined (type Body has no field or method Write)
+exit status 2 
+ 2018-11-03 21:31:59 /HOME/X/XRAZER/APPLICATIONS/GO/SRC/SERVER : # server/server
+server/server.go:62:18: not enough arguments in call to res.generateBody
+	have (net.Conn)
+	want (net.Conn, Request)
+server/server.go:149:5: undefined: static
+server/server.go:150:23: not enough arguments in call to os.OpenFile
+	have (string)
+	want (string, int, os.FileMode)
+server/server.go:150:23: multiple-value os.OpenFile() in single-value context
+exit status 2 
+ 2018-11-03 21:35:37 /HOME/X/XRAZER/APPLICATIONS/GO/SRC/SERVER : # server/server
+server/server.go:62:18: not enough arguments in call to res.generateBody
+	have (net.Conn)
+	want (net.Conn, Request)
+server/server.go:149:5: undefined: static
+server/server.go:150:23: not enough arguments in call to os.OpenFile
+	have (string)
+	want (string, int, os.FileMode)
+server/server.go:150:23: multiple-value os.OpenFile() in single-value context
+exit status 2 
+ 2018-11-04 16:51:35 /HOME/X/XRAZER/APPLICATIONS/GO/SRC/SERVER : # server/server
+server/server.go:62:18: not enough arguments in call to res.generateBody
+	have (net.Conn)
+	want (net.Conn, Request)
+server/server.go:149:5: undefined: static
+server/server.go:150:23: not enough arguments in call to os.OpenFile
+	have (string)
+	want (string, int, os.FileMode)
+server/server.go:150:23: multiple-value os.OpenFile() in single-value context
+exit status 2 
+ 2018-11-04 16:52:27 /HOME/X/XRAZER/APPLICATIONS/GO/SRC/SERVER : # server/server
+server/server.go:149:5: undefined: static
+server/server.go:150:23: not enough arguments in call to os.OpenFile
+	have (string)
+	want (string, int, os.FileMode)
+server/server.go:150:23: multiple-value os.OpenFile() in single-value context
+exit status 2 
+ 2018-11-04 17:44:06 /HOME/X/XRAZER/APPLICATIONS/GO/SRC/SERVER : # server/server
+server/server.go:150:23: not enough arguments in call to os.OpenFile
+	have (string)
+	want (string, int, os.FileMode)
+server/server.go:150:23: multiple-value os.OpenFile() in single-value context
+exit status 2 
+ 2018-11-04 17:44:21 /HOME/X/XRAZER/APPLICATIONS/GO/SRC/SERVER : # server/server
+server/server.go:150:26: not enough arguments in call to os.OpenFile
+	have (string)
+	want (string, int, os.FileMode)
+exit status 2 
+ 2018-11-04 17:45:23 /HOME/X/XRAZER/APPLICATIONS/GO/SRC/SERVER : # server/server
+server/server.go:151:6: undefined: err
+exit status 2 
+ 2018-11-04 17:45:30 /HOME/X/XRAZER/APPLICATIONS/GO/SRC/SERVER : # server/server
+server/server.go:150:11: undefined: err
+server/server.go:151:6: undefined: err
+exit status 2 
+ 2018-11-04 17:50:12 /HOME/X/XRAZER/APPLICATIONS/GO/SRC/SERVER : # server/server
+server/server.go:150:15: non-name r.body on left side of :=
+exit status 2 
+ 2018-11-04 17:52:12 /HOME/X/XRAZER/APPLICATIONS/GO/SRC/SERVER : # server/server
+server/server.go:151:14: syntax error: unexpected ( at end of statement
+exit status 2 
+ 2018-11-04 17:52:25 /HOME/X/XRAZER/APPLICATIONS/GO/SRC/SERVER : # server/server
+server/server.go:151:22: buf declared and not used
+exit status 2 
+ 2018-11-04 17:54:16 /HOME/X/XRAZER/APPLICATIONS/GO/SRC/SERVER : # server/server
+server/server.go:162:2: syntax error: unexpected }, expecting expression
+server/server.go:166:36: syntax error: unexpected string, expecting comma or )
+exit status 2 
+ 2018-11-04 17:55:11 /HOME/X/XRAZER/APPLICATIONS/GO/SRC/SERVER : # server/server
+server/server.go:162:28: n declared and not used
+exit status 2 
+ 2018-11-04 17:55:51 /HOME/X/XRAZER/APPLICATIONS/GO/SRC/SERVER : # server/server
+server/server.go:161:25: n declared and not used
+server/server.go:161:25: err declared and not used
+exit status 2 
+ 2018-11-04 17:56:27 /HOME/X/XRAZER/APPLICATIONS/GO/SRC/SERVER : # server/server
+server/server.go:162:25: n declared and not used
+exit status 2 
+ 2018-11-04 18:27:26 /HOME/X/XRAZER/APPLICATIONS/GO/SRC/SERVER : # server/server
+server/server.go:187:32: too many arguments in call to res.generateHeaders
+	have (net.Conn)
+	want ()
+exit status 2 
+ 2018-11-04 18:28:19 /HOME/X/XRAZER/APPLICATIONS/GO/SRC/SERVER : # server/server
+server/server.go:187:34: syntax error: unexpected newline, expecting comma or )
+exit status 2 
+ 2018-11-04 18:28:38 /HOME/X/XRAZER/APPLICATIONS/GO/SRC/SERVER : # server/server
+server/server.go:188:13: cannot use "hello world" (type string) as type []byte in argument to conn.Write
+exit status 2 
+ 2018-11-04 18:35:29 /HOME/X/XRAZER/APPLICATIONS/GO/SRC/SERVER : # server/server
+server/server.go:184:28: not enough arguments in call to strings.Split
+	have (string)
+	want (string, string)
+exit status 2 
+ 2018-11-04 18:37:32 /HOME/X/XRAZER/APPLICATIONS/GO/SRC/SERVER : # server/server
+server/server.go:152:9: too many arguments to panic: panic("error opening the file", err)
+exit status 2 
+ 2018-11-04 18:45:36 /HOME/X/XRAZER/APPLICATIONS/GO/SRC/SERVER : # server/server
+server/server.go:208:11: too many arguments in call to a.Output
+	have ([]byte)
+	want ()
+exit status 2 
+ 2018-11-04 18:45:39 /HOME/X/XRAZER/APPLICATIONS/GO/SRC/SERVER : # server/server
+server/server.go:208:11: too many arguments in call to a.Output
+	have ([]byte)
+	want ()
+exit status 2 
+ 

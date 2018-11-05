@@ -1,0 +1,19 @@
+settings:
+  legacy:
+    force: false
+    interval: 0s
+server:
+  open: false
+schema:
+- name: server
+  path: .
+  commands: {}
+  watcher:
+    extensions:
+    - go
+    paths:
+    - /
+    ignored_paths:
+    - .git
+    - .realize
+    - vendor
